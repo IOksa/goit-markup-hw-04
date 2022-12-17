@@ -151,9 +151,7 @@ header .logo{
 }
 .logo-footer{
     color: var(--secondary-color);
-    margin-right: 156px;
-
-    
+    current
 }
 
 .site-nav .link{
@@ -185,7 +183,6 @@ header .logo{
    
 }
 
-
 .contacts-text{
     color: var(--primary-text-color);
     
@@ -197,14 +194,9 @@ header .logo{
 
     padding: 32px 0;
 
-    
+    display: flex;
+    align-items: center;   
 }
-/* 
-.contacts-header-icon{
-    /* display:inline-block;
-    margin-right:10px;
-    text-decoration: none;
-} */
 
 
 .icon-header{
@@ -373,8 +365,8 @@ header .logo{
     gap: 30px;
 }
 .team-description{
-    margin-top: 30px;
-    margin-bottom: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-item{
@@ -400,6 +392,7 @@ header .logo{
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 16px;
 }
 .team-social-list{
     padding: 0;
@@ -407,7 +400,7 @@ header .logo{
     gap:10px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+   
 }
 .item-social{
     width: 44px;
